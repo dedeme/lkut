@@ -1,0 +1,112 @@
+[file_prefs]
+final_new_line=true
+ensure_convert_new_lines=false
+strip_trailing_spaces=true
+replace_tabs=false
+
+[indentation]
+indent_width=2
+indent_type=0
+indent_hard_tab_width=8
+detect_indent=false
+detect_indent_width=false
+indent_mode=2
+
+[project]
+name=libdmj
+base_path=./
+description=
+file_patterns=
+
+[long line marker]
+long_line_behaviour=1
+long_line_column=80
+
+[files]
+current_page=5
+FILE_NAME_0=1862;Java;0;EUTF-8;0;1;0;%2Fdm%2FdmJava%2Flib%2Flkut%2Ftests%2Fsrc%2FMatTest.java;0;2
+FILE_NAME_1=5160;Java;0;EUTF-8;0;1;0;%2Fdm%2FdmJava%2Flib%2Flkut%2Fsrc%2Fkut%2FMat.java;0;2
+FILE_NAME_2=798;Java;0;EUTF-8;0;1;0;%2Fdm%2FdmJava%2Flib%2Flkut%2Fsrc%2Fkut%2FSys.java;0;2
+FILE_NAME_3=429;Java;0;EUTF-8;0;1;0;%2Fdm%2FdmJava%2Flib%2Flkut%2Ftests%2Fsrc%2FMain.java;0;2
+FILE_NAME_4=292;Java;0;EUTF-8;0;1;0;%2Fdm%2FdmJava%2Flib%2Flkut%2Ftests%2Fsrc%2FSysTest.java;0;2
+FILE_NAME_5=296;None;0;EUTF-8;0;1;0;%2Fdm%2FdmJava%2Flib%2Flkut%2F.gitignore;0;2
+
+[VTE]
+last_dir=/home/deme/.local/share/Trash/files
+
+[build-menu]
+NF_00_LB=PackExec
+NF_00_CM=./make run
+NF_00_WD=%p
+EX_00_LB=
+EX_00_CM=
+EX_00_WD=
+JavascriptFT_00_LB=compile
+JavascriptFT_00_CM=gnome-terminal -e ~/bin/dmjs &
+JavascriptFT_00_WD=%p
+filetypes=Javascript;Haxe;Go;Java;C;
+JavascriptFT_01_LB=
+JavascriptFT_01_CM=firefox %p/www/index.html &
+JavascriptFT_01_WD=
+EX_01_LB=
+EX_01_CM=
+EX_01_WD=
+HaxeFT_00_LB=_Compile
+HaxeFT_00_CM=haxe build.hxml;haxe buildW.hxml;
+HaxeFT_00_WD=%d
+NF_02_LB=Pack
+NF_02_CM=./make pack
+NF_02_WD=%p
+NF_01_LB=
+NF_01_CM=
+NF_01_WD=
+HaxeFT_01_LB=_Language
+HaxeFT_01_CM=./haxe_maker -i18n
+HaxeFT_01_WD=%p
+HaxeFT_02_LB=
+HaxeFT_02_CM=
+HaxeFT_02_WD=
+GoFT_01_LB=Run
+GoFT_01_CM=go install;fleas
+GoFT_01_WD=
+GoFT_02_LB=Te_st
+GoFT_02_CM=go test ./%e
+GoFT_02_WD=%p
+GoFT_00_LB=_Build
+GoFT_00_CM=go install
+GoFT_00_WD=
+JavaFT_00_LB=_Compilar
+JavaFT_00_CM=./make c
+JavaFT_00_WD=%p
+JavaFT_01_LB=Ejecutar
+JavaFT_01_CM=./make x
+JavaFT_01_WD=%p
+CFT_00_LB=_Compilar
+CFT_00_CM=ctpl ./;make
+CFT_00_WD=%p
+CFT_01_LB=Test
+CFT_01_CM=make;bin/fleas2
+CFT_01_WD=%p
+CFT_02_LB=Valgrind
+CFT_02_CM=make valgrind; valgrind --leak-check=yes bin/v_fleas2
+CFT_02_WD=%p
+JavaFT_02_LB=
+JavaFT_02_CM=
+JavaFT_02_WD=
+NF_03_LB=Doc
+NF_03_CM=./make doc
+NF_03_WD=%p
+
+[editor]
+line_wrapping=false
+line_break_column=80
+auto_continue_multiline=true
+
+[prjorg]
+source_patterns=*.c;*.C;*.cpp;*.cxx;*.c++;*.cc;*.m;
+header_patterns=*.h;*.H;*.hpp;*.hxx;*.h++;*.hh;
+ignored_dirs_patterns=.*;CVS;
+ignored_file_patterns=*.o;*.obj;*.a;*.lib;*.so;*.dll;*.lo;*.la;*.class;*.jar;*.pyc;*.mo;*.gmo;
+generate_tag_prefs=0
+show_empty_dirs=true
+external_dirs=
